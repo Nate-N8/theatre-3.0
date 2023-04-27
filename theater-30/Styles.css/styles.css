@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+
+    background-color: red;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid royalblue;
+    padding-left: 5px;
+    outline: none;
+    transition: box-shadow .5s;
+}
+Label {
+     display: block;
+}
+button{
+    margin-top: 10px;
+    background-color: royalblue;
+    color: aliceblue;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color .5s, boxshadow .5s;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(140, 231, 231);
+}
+input:focus{
+    border: 1px solid royalblue;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+
+}
+@media (min-width:500px) {
+    label {
+        font-size: 72px;
+    }
+}
+.container {
+    background-color: aqua;
+}
+.row {
+    border: 10px solid black;
+}
+.col, .col-4, .col-8 {
+    border: 5px solid red;
+}
